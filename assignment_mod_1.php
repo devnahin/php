@@ -26,6 +26,9 @@ echo PHP_EOL;
 print $num > 0 ? 'positive' : (( $num < 0 ? ( $num < -10 ? 'value is below -10' : 'negative' ) : 'its zero' ));
 
 
+// Thanks 
+// Explanation video 
+// https://www.youtube.com/watch?v=6gVsPPidkdw 
 
 
 
