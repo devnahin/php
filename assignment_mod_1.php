@@ -1,7 +1,7 @@
 <?php
 
 
-//How can you use the ternary operator in PHP to shorten this if statement?
+//How can you use the ternary operator in PHP to shorten this if statement? 
 
 $num = -15;
 // Using if statement
@@ -23,4 +23,12 @@ echo PHP_EOL;
 //solution 
 //ternary nested operator 
 
-print $num > 0 ? 'positive' : (($num < 0 ? ($num < -10 ?'value is below -10' : 'negative') : 'its zero'));
+print $num > 0 ? 'positive' : (( $num < 0 ? ( $num < -10 ? 'value is below -10' : 'negative' ) : 'its zero' ));
+
+
+
+
+
+
+
+
