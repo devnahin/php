@@ -15,7 +15,9 @@ $commission_15 = $tutionFees * .15;
 
 //ternary operator to calculate this calculation 
 
-print ($tutionFees >= 20000) ? 'Commission 25% = '. $commission_25  : (( $tutionFees >= 10000 && $tutionFees <= 20000) ? 'Commission 20% = '. $commission_20 : (($tutionFees >= 7000 && $tutionFees <= 10000) ? 'Commission 15% = '. $commission_15 : 'Invalid') );
+print ($tutionFees >= 20000) ? 'Commission 25% = '. $commission_25  : 
+(( $tutionFees >= 10000 && $tutionFees <= 20000) ? 'Commission 20% = '. $commission_20 : 
+(($tutionFees >= 7000 && $tutionFees <= 10000) ? 'Commission 15% = '. $commission_15 : 'Invalid') );
 
 
 
